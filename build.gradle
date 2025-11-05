@@ -16,6 +16,11 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+
+	maven {
+		name = "Modrinth"
+		url = uri("https://api.modrinth.com/maven")
+	}
 }
 
 fabricApi {
@@ -32,6 +37,9 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	modImplementation "maven.modrinth:lets-do-vinery:${project.vinery_version}"
+	//modImplementation "dev.architectury:architectury-${project.architectury_api_version}"
 	
 }
 
