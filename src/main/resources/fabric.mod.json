@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "apple-wood-rebarked",
+	"version": "${version}",
+	"name": "Apple Wood Rebarked",
+	"description": "change that later",
+	"authors": [
+		"Awoolanche"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/apple-wood-rebarked/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.awoolanche.applewoodrebarked.AppleWoodRebarked"
+		],
+		"fabric-datagen": [
+			"net.awoolanche.applewoodrebarked.AppleWoodRebarkedDataGenerator"
+		],
+		"client": [
+			"net.awoolanche.applewoodrebarked.AppleWoodRebarkedClient"
+		]
+	},
+	"mixins": [
+		"apple-wood-rebarked.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
