@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/L/",
+    " i ",
+    " / "
+  ],
+  "key": {
+    "/": { "item": "minecraft:stick" },
+    "L": { "item": "minecraft:lead" },
+    "i": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "id": "apple-wood-rebarked:slingshot",
+    "count": 1
+  },
+  "group": "equipment"
+}

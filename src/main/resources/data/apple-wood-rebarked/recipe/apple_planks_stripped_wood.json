@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "apple-wood-rebarked:stripped_apple_wood"
+    }
+  ],
+  "result": {
+    "id": "apple-wood-rebarked:apple_planks",
+    "count": 4
+  }
+}

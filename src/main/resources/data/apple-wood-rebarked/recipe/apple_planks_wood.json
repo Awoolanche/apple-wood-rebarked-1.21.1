@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "vinery:apple_wood"
+    }
+  ],
+  "result": {
+    "id": "apple-wood-rebarked:apple_planks",
+    "count": 4
+  }
+}

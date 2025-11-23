@@ -5,6 +5,12 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"AbstractClientPlayerEntityMixin",
+		"HeldItemRendererMixin",
+		"HeldItemRendererAccessor",
+		"ProjectileEntityMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},
